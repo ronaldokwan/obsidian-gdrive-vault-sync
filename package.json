@@ -1,0 +1,19 @@
+{
+  "name": "gdrive-vault-sync",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Obsidian plugin: two-way vault sync with Google Drive",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit && node esbuild.config.mjs production",
+    "test": "esbuild test/sim.ts --bundle --platform=node --alias:obsidian=./test/obsidian-mock.ts --outfile=test/sim.js --log-level=warning && node test/sim.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "latest",
+    "typescript": "^5.4.5"
+  }
+}

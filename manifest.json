@@ -1,0 +1,10 @@
+{
+  "id": "gdrive-vault-sync",
+  "name": "Google Drive Vault Sync",
+  "version": "0.1.0",
+  "minAppVersion": "1.6.6",
+  "description": "Two-way sync of your vault with a folder in your own Google Drive.",
+  "author": "ronaldokwan",
+  "authorUrl": "https://github.com/ronaldokwan",
+  "isDesktopOnly": false
+}
